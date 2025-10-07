@@ -4,5 +4,5 @@ FROM albums
 INNER JOIN artists ON artists.id = albums.artist_id
 INNER JOIN tracks ON tracks.album_id = albums.id
 INNER JOIN features ON features.track_id = tracks.id
-GROUP BY artists.id
+GROUP BY album_name
 ORDER BY albums.release_date ASC;
