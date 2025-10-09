@@ -3,5 +3,6 @@
 
 INSERT INTO playlist (user_id, name)
 VALUES
-( '1', 'TechnoEngineering');
+--( '1', 'TechnoEngineering')
+('2', 'SoftwareBeats');
 
